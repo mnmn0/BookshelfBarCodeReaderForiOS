@@ -15,6 +15,8 @@
 		DA1EA4DF291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EA4DE291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift */; };
 		DA1EA4E1291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EA4E0291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift */; };
 		DADB3A8229212E0D004B88E2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB3A8129212E0D004B88E2 /* CameraView.swift */; };
+		DADB3A84292139FE004B88E2 /* AVFoundationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB3A83292139FE004B88E2 /* AVFoundationVM.swift */; };
+		DADB3A8629213A26004B88E2 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB3A8529213A26004B88E2 /* CALayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		DA1EA4DE291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfBarCodeReaderUITests.swift; sourceTree = "<group>"; };
 		DA1EA4E0291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfBarCodeReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DADB3A8129212E0D004B88E2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DADB3A83292139FE004B88E2 /* AVFoundationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationVM.swift; sourceTree = "<group>"; };
+		DADB3A8529213A26004B88E2 /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				DA1EA4C5291F96B200F27BD5 /* ContentView.swift */,
 				DA1EA4C7291F96B400F27BD5 /* Assets.xcassets */,
 				DA1EA4C9291F96B400F27BD5 /* Preview Content */,
+				DADB3A83292139FE004B88E2 /* AVFoundationVM.swift */,
+				DADB3A8529213A26004B88E2 /* CALayerView.swift */,
 			);
 			path = BookshelfBarCodeReader;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADB3A8629213A26004B88E2 /* CALayerView.swift in Sources */,
+				DADB3A84292139FE004B88E2 /* AVFoundationVM.swift in Sources */,
 				DADB3A8229212E0D004B88E2 /* CameraView.swift in Sources */,
 				DA1EA4C6291F96B200F27BD5 /* ContentView.swift in Sources */,
 				DA1EA4C4291F96B200F27BD5 /* BookshelfBarCodeReaderApp.swift in Sources */,
@@ -424,6 +432,7 @@
 				DEVELOPMENT_TEAM = HZS7KNU45N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +462,7 @@
 				DEVELOPMENT_TEAM = HZS7KNU45N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
