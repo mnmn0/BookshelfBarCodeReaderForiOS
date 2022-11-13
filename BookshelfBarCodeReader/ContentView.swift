@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    
+        NavigationView {
+            VStack {
+                
+                NavigationLink(destination: CameraView()) {
+                    Text("バーコードリーダー")
+                }.padding()
+                
+                NavigationLink(destination: CameraView()) {
+                    Text("設定")
+                }.padding()
+                
+            }
+            
+            .padding()
         }
-        .padding()
+
     }
 }
 

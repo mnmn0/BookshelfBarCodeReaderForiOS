@@ -14,6 +14,7 @@
 		DA1EA4D5291F96B400F27BD5 /* BookshelfBarCodeReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EA4D4291F96B400F27BD5 /* BookshelfBarCodeReaderTests.swift */; };
 		DA1EA4DF291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EA4DE291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift */; };
 		DA1EA4E1291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EA4E0291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift */; };
+		DADB3A8229212E0D004B88E2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB3A8129212E0D004B88E2 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DA1EA4DA291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookshelfBarCodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1EA4DE291F96B400F27BD5 /* BookshelfBarCodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfBarCodeReaderUITests.swift; sourceTree = "<group>"; };
 		DA1EA4E0291F96B400F27BD5 /* BookshelfBarCodeReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfBarCodeReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DADB3A8129212E0D004B88E2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		DA1EA4C2291F96B200F27BD5 /* BookshelfBarCodeReader */ = {
 			isa = PBXGroup;
 			children = (
+				DADB3A8129212E0D004B88E2 /* CameraView.swift */,
 				DA1EA4C3291F96B200F27BD5 /* BookshelfBarCodeReaderApp.swift */,
 				DA1EA4C5291F96B200F27BD5 /* ContentView.swift */,
 				DA1EA4C7291F96B400F27BD5 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADB3A8229212E0D004B88E2 /* CameraView.swift in Sources */,
 				DA1EA4C6291F96B200F27BD5 /* ContentView.swift in Sources */,
 				DA1EA4C4291F96B200F27BD5 /* BookshelfBarCodeReaderApp.swift in Sources */,
 			);
